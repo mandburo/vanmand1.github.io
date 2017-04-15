@@ -353,7 +353,6 @@ h5 {
 .portfolio ul {
 	margin: 0;
 	margin-bottom: 3rem;
-	margin-right: -2rem;
 	padding: 0;
 	list-style: none;
 }
@@ -560,6 +559,7 @@ h5 {
 }
 
 .get-in-touch h5 {
+	font-size: 1.4rem;
 	color:  #65615d;
 	padding-bottom: 2rem;
 }
@@ -793,6 +793,25 @@ b {
 }
 
 
+@media (max-width: 982px) {  /*до 982px*/
+
+	.biograph .col {
+		display: block;
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.menu {
+		margin-left: 3rem;
+	}
+
+	.box-item .item {
+    	display: inline-block;
+    	margin-top: 4rem;
+    	width: 20%;
+	}
+}
+
 @media (max-width: 768px) {  /*до 768px*/
 	.logo {
 		display: block;
@@ -806,18 +825,23 @@ b {
 	}
 
 	.menu li {
-    display: block;
-    padding-bottom: 2rem;
-    margin-left: 0;
+    	display: block;
+    	padding-bottom: 2rem;
+    	margin-left: 0;
 	}
 
 	.menu a {
 		margin-right: 0;
 	}
 
+	.header .intro {
+		width: 100%;
+	}
+
 	.box-item .item {
-    display: inline-block;
-    width: 15rem;
+    	display: inline-block;
+    	margin-top: 4rem;
+    	width: 70%;
 	}
 
 	.box-item .item h3 {
@@ -830,9 +854,9 @@ b {
 	
 	.biograph .col {
 		display: block;
-		width: 50rem;
+		width: 45rem;
 		margin: 0 auto;
-	}
+	}	
 
 	.portfolio li {
     	width: 40%;
@@ -862,6 +886,24 @@ b {
  	
  	.form-input {
     	width: 35rem;
+	}
+
+	#slider {
+		width: 80%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.whois-client {
+    	display: block;
+    	text-align: center;
+	}
+
+	.clients span, .clients p {
+		margin-left: 0;
+		margin-top: 2rem;
+		
+	}
 }
 
 @media (max-width: 480px) {  /*до 480px*/
@@ -881,7 +923,7 @@ b {
 	}
 
 	.header .intro {
-		width: 44rem;
+		width: 65%;
 	}
 
 	h1, h5 {
@@ -905,10 +947,32 @@ b {
 	}
 
 	#slider {
-		width: 44rem;
+		width: 80%;
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
+
+
+	.whois-client {
+    	display: block;
+    	text-align: center;
+	}
+
+	.clients span, .clients p {
+		margin-left: 0;
+		margin-top: 2rem;
+		
+	}
+
+	.client-avatar {
+    	display: block;
+    	width: 70%;
+    	margin: 0 auto;
+	}
+
+	.footer .icon {
+    	margin-right: 1rem;
+}
 
 }
 
